@@ -42,5 +42,7 @@ WORK FLOW (from tutorial video)
 beginning of everyday
 git pull (to get everyone's changes)
 
+and I can make changes to the file on gitHub itself :)s
+
 
 
