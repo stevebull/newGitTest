@@ -1,0 +1,46 @@
+pantheon-work-log-20140921.txt
+
+https://dashboard.getpantheon.com/users/5b078efd-5a71-4fdb-8d7c-fa216f473e42#sites/list
+
+20140921
+05:12 EDT = 12:12 Lefkes, Paros, Greece
+created a 2nd free new site "smstest" w/ install of Drupal 6key_for_pantheon.txt
+smstest.pantheon.com
+
+I tried to use connection mode SFTP to upload/create site content and although I was finally able to create a key [key_for_pantheon.txt] on my MacBook Pro following command line instructions my FETCH was unable to digest the key to match my intent
+
+So now I will try the GIT method, I have git installed
+Stephens-MacBook-Pro:~ aeolus$ git --version
+git version 1.8.5.2 (Apple Git-48)
+
+06:06 i was unable to load my SSH key into my account. I left a trouble ticket about the matter.
+
+returning to how to tutorials on git + github
+GitHub
+https://github.com/login
+id: stevebull
+e. s.b@g
+pw: name2xw/#4v&capsaspresented
+https://www.youtube.com/watch?v=0fKg7e37bQE
+command git clone https://github.com/stevebull/newGitTest.git 
+creates a folder /Documents/newGitHub/ and stores stuff from github.com/stevebull/newGitTest
+i notice the videomaker is using iTerm + SUblimeText apps so I added both
+some git commands from tutorial
+git commit -m "added index.html" (-m means with message within "" to github repository)
+git status
+git push
+git add index.html (<> or filename means adding only the file within directory to github repository)
+git add . (. means add all in directory to github repository)
+git add -A (-A means add ALL in directory to github repository)
+git pull (pulls all file within a github repository; shared use)
+git commit -m "made changes" (terribly generic, just useful in this tutorial
+git (shows a list of all commands)
+if you ever #git commit alone you may need to get out terminal screen > esc key > then ;wq < uh huh
+git commit is USEFUL for a multi line commit message
+
+WORK FLOW (from tutorial video)
+beginning of everyday
+git pull (to get everyone's changes)
+
+
+
